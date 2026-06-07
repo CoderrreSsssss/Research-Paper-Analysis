@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>AI Research Copilot</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="sidebar">
+
+<h1>AI Research Copilot</h1>
+
+<p>
+Upload research papers and chat with them.
+</p>
+
+<input type="file" id="pdfFile">
+
+<button onclick="uploadPDF()">
+Upload PDF
+</button>
+
+<div id="uploadStatus"></div>
+
+</div>
+
+<div class="main">
+
+<div id="chatBox"></div>
+
+<div class="input-area">
+
+<input
+type="text"
+id="question"
+placeholder="Ask anything about your paper..."
+>
+
+<button onclick="sendQuestion()">
+Send
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
