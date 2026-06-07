@@ -1,0 +1,17 @@
+flask
+google-generativeai
+langchain
+langchain-community
+faiss-cpu
+sentence-transformers
+pypdf
+python-dotenv
+werkzeugflask
+google-generativeai
+langchain
+langchain-community
+faiss-cpu
+sentence-transformers
+pypdf
+python-dotenv
+werkzeug
